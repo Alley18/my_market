@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "779369773558",
+    "project_id": "bozorim-2027",
+    "storage_bucket": "bozorim-2027.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779369773558:android:d223e326fcd842abaf2fd7",
+        "android_client_info": {
+          "package_name": "com.example.margilon_bozor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfILyak01rnXBZo_9tSvgi9ysag0yR5xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

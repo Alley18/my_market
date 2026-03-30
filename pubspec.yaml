@@ -1,0 +1,43 @@
+name: Bozorim
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # --- Firebase Suite (Matched Versions) ---
+  firebase_core: ^4.4.0
+  cloud_firestore: ^6.1.2
+  firebase_storage: ^13.0.6
+  device_info_plus: ^10.1.0
+  local_auth: ^2.3.0
+
+  # --- Utilities ---
+  image_picker: ^1.0.7
+  uuid: ^4.3.3
+  intl: ^0.20.2
+  firebase_auth: ^6.1.4
+  cloudinary_public: ^0.23.1
+  intl_phone_field: ^3.2.0
+  google_sign_in: ^6.2.0  # Downgraded from 7.2.0 to stable 6.2.0
+  firebase_messaging: ^16.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # --- Assets Folder Registration ---
+  assets:
+    - assets/images/
+    - assets/products/
