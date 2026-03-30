@@ -18,7 +18,7 @@ Media Hosting: Cloudinary – Offloaded image processing and storage to ensure f
 State & Logic: Clean architecture separating Services (Auth, Firestore) from the UI, making the code maintainable and bug-resistant.
 
 💡 Challenges We Solved
-This is the part that will impress the Momstay team the most. Don't just say what you did; say why it was hard and how you beat it:
+
 
 1. Account Recovery & Data Integrity
 The Problem: Users often lose access to accounts or sign in on new devices. We needed to ensure a "Store Owner" didn't lose their shop if they switched phones.
